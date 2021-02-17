@@ -74,9 +74,13 @@ h2 + .user_review {
 
 
 nav {
-  display: inline-block;
+  /*display: inline-block;*/
+  float: right;
 }
 
+.Logo {
+  float: left;
+}
 
 nav ul li {
   display: inline-block;
@@ -101,6 +105,11 @@ section {
   display: inline-block;
   vertical-align: top;
  
+}
+.clear::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 aside {
